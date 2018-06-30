@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="EdnaMugoh">
+    <meta name="description" content="freeCurrencyConverter"> 
+    <title>Free Currency Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+</head>
+<body class="Body">
+    <header class="topings"> 
+        <h3>CURRENCY CONVERTER</h3>
+    </header>
+    <form id="form">
+        <fieldset>
+           <legend>Convert your currency</legend>
+           <table align="center" id="table">
+    
+                <tbody>
+                    <tr>
+                       <td>
+                           <input id="yourAmount" placeholder="Enter amount in number" type="number" step="0.000001" class="select">
+                       </td>
+                        <td>
+                        
+                            <select id = "fromCurrency" name="fromCurrency" class="select">
+                                <option selected>Your currency</option>
+                            </select>
+                        
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>
+                             <input id="toAmount" placeholder="Enter amount in number" type="number" step="0.000001" class="select">
+                        </td>
+                        <td>
+                    
+                             <select id = "toCurrency" name="toCurrency" class="select">
+                                <option selected>To what currency</option>
+                             </select>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            
+                                <button type="button" id="ok" name="ok" aria-label="ok" >OK</button>
+                         
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+    
+    <footer class="topings">
+        <div align="center">
+           E.W.Mugoh &copy; productions ALC 2018.
+        </div>
+    </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>
